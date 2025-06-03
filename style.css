@@ -10,7 +10,7 @@
 
 body{
     background: linear-gradient(to left, rgb(224, 226, 224), rgb(71, 138, 74));
-    overflow-x: hidden; /*вимикає горизонтальну прокрутку*/
+    overflow-x: hidden; 
     
 }
 
@@ -192,8 +192,8 @@ body{
     top: 0; 
     left: 10px; 
     z-index: 1;
-    border: 15px solid rgb(255, 255, 255); /* Встановлює обведення чорного кольору */
-    background-color: transparent; /* Зробити фон прозорим */
+    border: 15px solid rgb(255, 255, 255); 
+    background-color: transparent; 
 }
 
 .button{
@@ -207,9 +207,9 @@ body{
     font-size: 16px;
     color: white;
     letter-spacing: 1.8px;
-    display: flex; /* Додаємо flexbox для вирівнювання тексту */
-    justify-content: center; /* Вирівнюємо текст по горизонталі */
-    align-items: center; /* Вирівнюємо текст по вертикалі */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     border-radius: 50px;
     margin-left: 920px;
     margin-top: 60px;
@@ -248,9 +248,9 @@ body{
 
 @keyframes jump {
     0%, 100% {
-        transform: translateY(0); /* Початкова та кінцева позиція */
+        transform: translateY(0); 
     }
     50% {
-        transform: translateY(-10px); /* Позиція під час стрибка */
+        transform: translateY(-10px); 
     }
 }
